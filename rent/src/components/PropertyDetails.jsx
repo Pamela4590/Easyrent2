@@ -1,15 +1,15 @@
-"use client"
+
 import { useParams } from "react-router-dom"
-import "./PropertyDetail.css"
-import house1 from "../assets/house1.jpg"
-import house2 from "../assets/house2.jpg"
-import house3 from "../assets/house3.jpg"
-import house4 from "../assets/house4.jpg"
-import rentHouse1 from "../assets/rent-house1.jpg"
-import rentHouse2 from "../assets/rent-house2.jpg"
-import rentHouse3 from "../assets/rent-house3.jpg"
-import rentHouse4 from "../assets/rent-house4.jpg"
-import agentImage from "../assets/agent.jpg"
+import "../styles/PropertyDetails.css"
+import house1 from "../images/house1.jpg"
+import house2 from "../images/house2.jpg"
+import house3 from "../images/house3.jpg"
+import house4 from "../images/property5.jpg"
+import rentHouse1 from "../images/property1.jpg"
+import rentHouse2 from "../images/property2.jpg"
+import rentHouse3 from "../images/property3.jpg"
+import rentHouse4 from "../images/property4.jpg"
+import agentImage from "../images/Screenshot 2025-04-11 162333.png"
 
 const PropertyDetail = () => {
   const { id } = useParams()
