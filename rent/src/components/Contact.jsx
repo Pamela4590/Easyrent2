@@ -1,10 +1,9 @@
 import "../styles/Contact.css"
-import heroImage from "../images/firsthouse.jpg"
+
 const Contact = () => {
   return (
     <div className="contact-page">
       <div className="contact-hero">
-        <section className="hero" style={{ backgroundImage: `url(${heroImage})` }}></section>
         <div className="contact-hero-content">
           <h2>BE IN TOUCH</h2>
           <h1>Contact</h1>

@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="navbar-left">
           <Link to="/" className="logo-container">
             <img src={dwellLogo || "/placeholder.svg"} alt="Dwell Properties" className="logo" />
-            <span className="logo-text">PROPERTIES</span>
+            <span className="logo-text">EAZY RENT</span>
           </Link>
           <div className="social-icons">
             <a href="https://facebook.com" aria-label="Facebook">
