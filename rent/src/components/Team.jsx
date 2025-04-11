@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
 import "../styles/Team.css"
-import agent1 from "../images/agent1.jpg"
-import agent2 from "../images/agent2.jpg"
-import agent3 from "../images/agent3.jpg"
-import agent4 from "../images/agent4.jpg"
-import agent5 from "../images/agent5.jpg"
-import agent6 from "../images/agent6.jpg"
+import agent1 from "../images/Screenshot 2025-03-01 223501.png"
+import agent2 from "../images/Screenshot 2025-03-01 223549.png"
+import agent3 from "../images/Screenshot 2025-03-01 223641.png"
+import agent4 from "../images/Screenshot 2025-03-01 224911.png"
+import agent5 from "../images/Screenshot 2025-03-01 224927.png"
+import agent6 from "../images/Screenshot 2025-03-01 224939.png"
 
 const Team = () => {
   const agents = [
