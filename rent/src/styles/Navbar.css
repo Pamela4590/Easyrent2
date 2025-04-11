@@ -22,6 +22,7 @@
 .navbar-left {
   display: flex;
   align-items: center;
+  margin-left: -10rem;
 }
 
 .logo-container {
@@ -60,6 +61,7 @@
 .navbar-right {
   display: flex;
   align-items: center;
+  margin-right: -10rem;
 }
 
 .nav-links {
