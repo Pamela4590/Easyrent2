@@ -1,7 +1,7 @@
-import "./News.css"
-import newsImage1 from "../assets/news1.jpg"
-import newsImage2 from "../assets/news2.jpg"
-import newsImage3 from "../assets/news3.jpg"
+import "../styles/News.css"
+import newsImage1 from "../images/news1.jpg"
+import newsImage2 from "../images/news2.jpg"
+import newsImage3 from "../images/news3.jpg"
 
 const News = () => {
   const newsArticles = [

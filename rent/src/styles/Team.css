@@ -1,0 +1,111 @@
+.team-page {
+    width: 100%;
+  }
+  
+  .team-hero {
+    background-color: #0c1a2d;
+    background-image: url("../assets/team-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .team-hero-content h2 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .team-hero-content h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .agents-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+  
+  .agent-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+    transition: transform 0.3s;
+  }
+  
+  .agent-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .agent-card h3 {
+    font-size: 24px;
+    margin: 0 0 5px;
+    color: #0c1a2d;
+  }
+  
+  .agent-title {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .agent-image {
+    margin-bottom: 20px;
+  }
+  
+  .agent-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .agent-contact-info {
+    text-align: left;
+  }
+  
+  .contact-item {
+    margin-bottom: 15px;
+  }
+  
+  .contact-item h4 {
+    font-size: 16px;
+    margin: 0 0 5px;
+    color: #0c1a2d;
+  }
+  
+  .contact-item p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .linkedin-link {
+    display: inline-block;
+    color: #e63946;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 1024px) {
+    .agents-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .agents-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
