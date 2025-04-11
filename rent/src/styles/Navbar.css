@@ -78,12 +78,12 @@
 }
 
 .nav-link:hover {
-  color: #e6e6e6;
+  color: #f32222;
 }
 
-.nav-link.home {
+/* .nav-link.home {
   color: #e63946;
-}
+} */
 
 .dashboard {
   display: flex;

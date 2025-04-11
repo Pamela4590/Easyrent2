@@ -101,8 +101,8 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="footer-logo">
-          <img src={dwellLogo || "/placeholder.svg"} alt="Dwell Properties" />
-          <span>PROPERTIES</span>
+          <img src={dwellLogo || "lg.png"} alt="Dwell Properties" />
+          <span>EAZY RENT</span>
         </div>
 
         <div className="footer-nav">
