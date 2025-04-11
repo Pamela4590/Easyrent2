@@ -3,10 +3,11 @@ import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import { Facebook, Twitter, Linkedin, Youtube, User } from "lucide-react"
 import "../styles/Navbar.css"
-import dwellLogo from "../images/log.png"
+import dwellLogo from "../images/lg.png"
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false)
+  const [showPropertiesDropdown, setShowPropertiesDropdown] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,10 +54,30 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li>
-              <Link to="/properties" className="nav-link">
-                Properties
-              </Link>
+            <li className="dropdown-container">
+              <div
+                className="nav-link properties-dropdown-trigger"
+                onMouseEnter={() => setShowPropertiesDropdown(true)}
+                onMouseLeave={() => setShowPropertiesDropdown(false)}
+              >
+                <Link to="/properties" className="nav-link">
+                  Properties
+                </Link>
+                <ChevronDown size={16} />
+                {showPropertiesDropdown && (
+                  <div className="properties-dropdown">
+                    <Link to="/properties" className="dropdown-item">
+                      All
+                    </Link>
+                    <Link to="/properties/buy" className="dropdown-item">
+                      Buy
+                    </Link>
+                    <Link to="/properties/rent" className="dropdown-item">
+                      Rent
+                    </Link>
+                  </div>
+                )}
+              </div>
             </li>
             <li>
               <Link to="/news" className="nav-link">

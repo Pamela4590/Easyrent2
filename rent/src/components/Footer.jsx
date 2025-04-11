@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { Phone, MapPin, Mail, Facebook, Twitter, Linkedin, Youtube } from "lucide-react"
 import "../styles/Footer.css"
-import dwellLogo from "../images/log.png"
+import dwellLogo from "../images/lg.png"
 
 const Footer = () => {
   return (

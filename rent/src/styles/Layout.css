@@ -2,10 +2,14 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100%;
   }
   
   .main-content {
     flex: 1;
-    margin-top: 70px; 
+    /* margin-top: 62px;  */
+    /* margin: 0;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem; */
   }
   
