@@ -1,7 +1,6 @@
-
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
-import { Facebook, Twitter, Linkedin, Youtube, User } from "lucide-react"
+import { Facebook, Twitter, Linkedin, Youtube, User, ChevronDown } from "lucide-react"
 import "../styles/Navbar.css"
 import dwellLogo from "../images/lg.png"
 

@@ -111,7 +111,7 @@ const Home = () => {
   return (
     <div className="home">
       {/* Hero Section */}
-      <section className="hero" style={{ backgroundImage: `url(${heroImage})` }}>
+
         <div className="hero-content">
           <h1>New Properties</h1>
           <p>EXCLUSIVELY BY DWELL</p>
@@ -119,7 +119,6 @@ const Home = () => {
             Explore
           </Link>
         </div>
-      </section>
 
       {/* What Are You Looking For Section */}
       <section className="looking-for">
