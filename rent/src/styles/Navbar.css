@@ -22,7 +22,7 @@
 .navbar-left {
   display: flex;
   align-items: center;
-  margin-left: -10rem;
+  margin-left: -7rem;
 }
 
 .logo-container {
@@ -33,7 +33,7 @@
 
 .logo {
   height: 30px;
-  margin-right: 10px;
+  margin-right: 1px;
 }
 
 .logo-text {
@@ -61,7 +61,7 @@
 .navbar-right {
   display: flex;
   align-items: center;
-  margin-right: -10rem;
+  margin-right: -5rem;
 }
 
 .nav-links {
